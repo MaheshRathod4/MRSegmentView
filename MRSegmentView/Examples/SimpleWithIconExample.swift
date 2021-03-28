@@ -11,7 +11,6 @@ import SwiftUI
 struct SimpleWithIconExample: View {
     
     @State var currentPage = 0
-    @State var isSelectTab:Bool = false
     @State var tabs = [
         Tab(title: "Tab 1", icon: "folder.fill", isSelect: true),
         Tab(title: "Tab 2", icon: "folder.fill", isSelect: false),
