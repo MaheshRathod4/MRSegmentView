@@ -6,6 +6,7 @@ Custom segmentview in swiftUI
 How to use 
 
 var struct BottomLineExample: View {  
+
     @State var currentPage = 0
     //create array of tab
     @State var tabs = [
